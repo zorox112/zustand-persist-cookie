@@ -1,0 +1,33 @@
+{
+  "name": "zustand-persist-cookie",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./dist/index.js",
+  "files": ["dist"],
+  "scripts": {
+    "build": "rm -rf ./dist && npx tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zorox112/zustand-persist-cookie.git"
+  },
+  "keywords": [
+    "zustand"
+  ],
+  "author": "zorox112",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zorox112/zustand-persist-cookie/issues"
+  },
+  "homepage": "https://github.com/zorox112/zustand-persist-cookie#readme",
+  "dependencies": {
+    "js-cookie": "^3.0.5"
+  },
+  "peerDependencies": {
+    "zustand": ">=4.0.0"
+  },
+  "devDependencies": {
+    "@types/js-cookie": "^3.0.6",
+    "typescript": "^5.6.3"
+  }
+}
