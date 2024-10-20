@@ -1,6 +1,6 @@
 {
   "name": "zustand-persist-cookie",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "./dist/index.js",
   "files": ["dist"],
@@ -12,7 +12,9 @@
     "url": "git+https://github.com/zorox112/zustand-persist-cookie.git"
   },
   "keywords": [
-    "zustand"
+    "zustand",
+    "cookie",
+    "storage"
   ],
   "author": "zorox112",
   "license": "ISC",

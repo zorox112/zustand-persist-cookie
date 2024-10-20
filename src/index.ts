@@ -6,10 +6,10 @@ export const createCookieStorage = (params?: Cookies.CookieAttributes): StateSto
         return Cookie.get(name) ?? null;
     },
     setItem: (name: string, value: string): void => {
-        Cookie.set(name, value, {expires: new Date(new Date().setFullYear(200)), ...params});
+        Cookie.set(name, value, {expires: 100000, ...params});
     },
     removeItem: (name: string): void => {
-        Cookie.remove(name, {expires: new Date(new Date().setFullYear(200)), ...params});
+        Cookie.remove(name, {expires: 100000, ...params});
     },
 });
 
